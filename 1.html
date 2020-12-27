@@ -1,30 +1,68 @@
 <!doctype html>
+
 <html>
   <head>
     <title> WEB_COOKIE </title>
     <meta charset = "utf-8">
+    <style>
+      h1 {
+        font-size : 45px;
+        font-family : "Georgia",Serif;
+        text-align : center;
+
+        margin : 0;
+        padding : 30px;
+        border-bottom : 1px solid gray;
+      }
+      p{
+        font-family : "Georgia",Serif;
+      }
+      a{
+        text-decoration : none;
+        color : black;
+        display : block;
+        margin : 10px
+      }
+      ul{
+        border-right : 1px solid gray;
+        font-size : 15px;
+        font-family : "Georgia",Serif;
+        text-align : center;
+
+        padding : 0;
+        margin: 5px;
+      }
+
+      #grid{
+        display : grid;
+        grid-template-columns : 1fr 3fr;
+      }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">COOKIE</a></h1>
-    <ol>
-      <li><a href="1.html">About</a></li>
-      <li><a href="2.html">Terminology</a></li>
-      <li><a href="3.html">Etymology</a></li>
-    </ol>
+    <div id="grid">
+      <ul>
+        <a href="1.html" class="list">About</a>
+        <a href="2.html" class="list">Terminology</a>
+        <a href="3.html" class="list">Etymology</a>
+      </ul>
 
-    <h2>About</h2>
+      <div>
+        <h2>About</h2>
 
-    <p>A <strong><a href= "https://en.wikipedia.org/wiki/Cookie"
-      target="_blank" title="Go to Wikipedia">cookie</a></strong>
-    is a baked or cooked food that is typically small, flat and sweet.
-    It usually contains flour, sugar and some type of oil or fat.</p>
+        <p>A <strong>cookie</a></strong>
+        is a baked or cooked food that is typically small, flat and sweet.
+        It usually contains flour, sugar and some type of oil or fat.</p>
 
-    <p style = "margin-top : 45px">In most English-speaking countries except for the United States
-    and Canada, crunchy cookies are called biscuits.
-    Chewier biscuits are sometimes called cookies even in the United
-    Kingdom. Some cookies may also be named by their shape,
-    such as date squares or bars.</p>
+        <p style = "margin-top : 45px">In most English-speaking countries except for the United States
+        and Canada, crunchy cookies are called biscuits.
+        Chewier biscuits are sometimes called cookies even in the United
+        Kingdom. Some cookies may also be named by their shape,
+        such as date squares or bars.</p>
+      </div>
+    </div>
 
   </body>
 </html>

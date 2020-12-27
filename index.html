@@ -1,19 +1,62 @@
 <!doctype html>
+
 <html>
   <head>
     <title> WEB_COOKIE </title>
     <meta charset = "utf-8">
+    <style>
+      h1 {
+        font-size : 45px;
+        font-family : "Georgia",Serif;
+        text-align : center;
+
+        margin : 0;
+        padding : 30px;
+        border-bottom : 1px solid gray;
+      }
+      p{
+        font-family : "Georgia",Serif;
+      }
+      a{
+        text-decoration : none;
+        color : black;
+        display : block;
+        margin : 10px
+      }
+      ul{
+        border-right : 1px solid gray;
+        font-size : 15px;
+        font-family : "Georgia",Serif;
+        text-align : center;
+
+        padding : 0;
+        margin: 5px;
+      }
+
+      #grid{
+        display : grid;
+        grid-template-columns : 1fr 3fr;
+      }
+      img{
+        display :block;
+        margin-left:auto;
+        margin-right:auto;
+      }
+    </style>
   </head>
 
   <body>
     <h1><a href="index.html">COOKIE</a></h1>
-    <ol>
-      <li><a href="1.html">About</a></li>
-      <li><a href="2.html">Terminology</a></li>
-      <li><a href="3.html">Etymology</a></li>
-    </ol>
+    <div id="grid">
+      <ul>
+        <a href="1.html" class="list">About</a>
+        <a href="2.html" class="list">Terminology</a>
+        <a href="3.html" class="list">Etymology</a>
+      </ul>
 
-    <h2>Welcome!</h2>
-    <img src="cookie.jpg" width="30%">
+    <div>
+      <h2>Welcome!</h2>
+      <img src="cookie.jpg" width="100%">
+    </div>
   </body>
 </html>
